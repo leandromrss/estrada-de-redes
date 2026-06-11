@@ -45,7 +45,7 @@ completed: Completeda
 
 - [x] Aula concluída
 - [ ] Revisada
-- [ ] Consolidada no Resumo Geral
+- [x] Consolidada no Resumo Geral
 
 ---
 

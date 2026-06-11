@@ -4,7 +4,7 @@ allDay: false
 startTime: 17:00
 endTime: 17:30
 date: 2026-06-03
-completed:
+completed: Em andamento
 ---
 # Resumo Geral
 
@@ -41,7 +41,8 @@ Avaliar e selecionar conexões e protocolos de comunicação
 
 ## Ferramentas e Tecnologias
 
-- Simulador de Redes
+- Packet Tracer
+- CMD
 ---
 
 ## Aplicação Profissional
@@ -54,6 +55,9 @@ Como os conhecimentos deste curso podem ser aplicados em ambientes corporativos.
 
 ### Módulo 1
 
+Com o conteúdo visitado e estudado, conseguimos realizar a analise de comunicação de um dispositivo a outro dentro da rede. Também conseguimos realizar a analise da rota traçada para essa comunicação e identificar se a mesma está funcional ou com falhas.
+
+---
 ### Módulo 2
 
 ### Módulo 3
@@ -64,15 +68,21 @@ Como os conhecimentos deste curso podem ser aplicados em ambientes corporativos.
 
 ## Lições Aprendidas
 
+- Teste de comunicação de dispositivos e entrega de pacotes com o comando ping
+- Analise de rota de comunicação de um dispositivo a outro dentro da rede através do comando tracert
+- Analise da comunicação
+- Identificação de falhas de comunicação
+- A internet é uma rede de computadores em nível global, possibilitando que dispositivos dispersos ao redor do mundo troquem informações
+- A comunicação entre os dispositivos é feita em geral no formato de pacotes de dados
 ---
 
 ## Próximos Passos
 
-- [ ]
+- [ Utilizar o packet tracer para criar uma infraestrutura para comunicação entre dispositivos ]
     
-- [ ]
+- [ Entender outros tipos de comunicação e o que são ]
     
-- [ ]
+- [ Entender a função de outro tipo de dispositivos dentro da rede]
     
 
 ---

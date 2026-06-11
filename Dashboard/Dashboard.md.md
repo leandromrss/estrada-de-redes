@@ -13,6 +13,36 @@
 🟢 Em andamento
 
 ---
+# 📊 Métricas da Estrada de Redes  
+  
+```dataviewjs  
+const aulas = dv.pages('"01 - Cursos"')  
+.where(p => !p.file.name.includes("Resumo Geral"))  
+.length;  
+  
+const labs = dv.pages('"10 - Laboratórios/Packet Tracer"')  
+.length;  
+  
+const atividades = dv.pages('"10 - Laboratórios/Atividades Praticas"')  
+.length;  
+  
+const projetos = dv.pages('"11 - Projetos"')  
+.length;  
+  
+dv.table(  
+["Categoria", "Quantidade"],  
+[  
+["📚 Aulas", aulas],  
+["🧪 Laboratórios", labs],  
+["💻 Atividades Práticas", atividades],  
+["🚀 Projetos", projetos]  
+]  
+);  
+```
+
+
+---
+
 
 # 📚 Últimas Aulas
 
@@ -23,11 +53,6 @@ SORT file.name DESC
 LIMIT 10
 ```
 
-
-
-
-
-
 ---
 
 # 🔬 Últimos Laboratórios Packet Tracer
@@ -37,7 +62,13 @@ TABLE file.name, file.folder
 FROM "10 - Laboratórios/Packet Tracer"
 ```
 
+---
+# 🔬 Últimas Atividades Praticas
 
+```dataview
+TABLE file.name, file.folder
+FROM "10 - Laboratórios/Atividades Praticas"
+```
 
 ---
 
@@ -47,6 +78,30 @@ FROM "10 - Laboratórios/Packet Tracer"
 not done
 path includes "01 - Cursos/Alura/Redes - Dos Conceitos Iniciais à Criação de uma Infraestrutura"
 ```
+
+---
+
+```dataview
+TABLE WITHOUT ID
+length(rows) AS "Quantidade"
+FROM "10 - Laboratórios/Atividades Práticas"
+WHERE file.ext = "md"
+GROUP BY ""
+```
+
+---
+
+## 🚀 Projetos
+
+```dataview
+TABLE WITHOUT ID
+length(rows) AS "Quantidade"
+FROM "11 - Projetos"
+WHERE file.ext = "md"
+GROUP BY ""
+```
+
+
 
 ---
 

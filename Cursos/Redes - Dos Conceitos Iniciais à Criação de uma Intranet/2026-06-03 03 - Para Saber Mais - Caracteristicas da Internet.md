@@ -4,7 +4,7 @@ allDay: false
 startTime: 19:00
 endTime: 19:30
 date: 2026-06-03
-completed:
+completed: 2026-06-10T21:31:59.974-03:00
 ---
 # Aula
 
