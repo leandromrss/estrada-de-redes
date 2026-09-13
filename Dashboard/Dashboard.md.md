@@ -14,7 +14,6 @@
 
 ---
 # 📊 Métricas da Estrada de Redes  
-  
 ```dataviewjs  
 const aulas = dv.pages('"01 - Cursos"')  
 .where(p => !p.file.name.includes("Resumo Geral"))  
@@ -40,10 +39,7 @@ dv.table(
 );  
 ```
 
-
 ---
-
-
 # 📚 Últimas Aulas
 
 ```dataview

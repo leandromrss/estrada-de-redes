@@ -37,6 +37,8 @@ Smartphone B
 ---
 
 ## Equipamentos e Recursos
+NA
+
 
 ### Hardware
 

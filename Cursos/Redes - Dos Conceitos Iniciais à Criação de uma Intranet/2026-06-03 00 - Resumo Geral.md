@@ -36,6 +36,23 @@ Avaliar e selecionar conexões e protocolos de comunicação
 
 ## Principais Conceitos
 
+- **Redes de computadores**
+- **Comunicação entre dispositivos**
+- **Pacotes de dados**
+- **Conectividade de rede**
+- **Ping e ICMP**
+- **Tracert e análise de rotas**
+- **DNS (Domain Name System)**
+- **nslookup**
+- **Endereçamento IP**
+- **Dispositivos de rede**
+- **Hub e interconexão de dispositivos**
+- **Topologia de rede**
+- **Meios físicos de transmissão**
+- **Cabos de rede**
+- **Cisco Packet Tracer**
+- **Análise e diagnóstico de conectividade**
+- **Internet e comunicação entre redes**
 
 ---
 
@@ -59,6 +76,7 @@ Com o conteúdo visitado e estudado, conseguimos realizar a analise de comunica�
 
 ---
 ### Módulo 2
+Neste módulo, avançamos na parte prática dos fundamentos de redes, utilizando o **Cisco Packet Tracer** para criar, conectar e simular dispositivos em uma rede de computadores. Também foram realizados testes utilizando **Hub**, além da utilização do comando **nslookup** para consultas DNS e da compreensão dos diferentes meios de conexão entre dispositivos através de cabos de rede.
 
 ### Módulo 3
 
@@ -68,12 +86,19 @@ Com o conteúdo visitado e estudado, conseguimos realizar a analise de comunica�
 
 ## Lições Aprendidas
 
-- Teste de comunicação de dispositivos e entrega de pacotes com o comando ping
-- Analise de rota de comunicação de um dispositivo a outro dentro da rede através do comando tracert
-- Analise da comunicação
-- Identificação de falhas de comunicação
-- A internet é uma rede de computadores em nível global, possibilitando que dispositivos dispersos ao redor do mundo troquem informações
-- A comunicação entre os dispositivos é feita em geral no formato de pacotes de dados
+- Compreensão do funcionamento básico da comunicação entre dispositivos em uma rede.
+- Utilização do comando **ping** para testar a conectividade entre dispositivos e verificar a entrega de pacotes.
+- Utilização do comando **tracert** para analisar a rota percorrida pelos pacotes entre origem e destino.
+- Identificação de possíveis falhas de comunicação por meio da análise dos resultados dos testes de rede.
+- Compreensão da **Internet como uma rede global**, permitindo a comunicação entre dispositivos localizados em diferentes redes e regiões.
+- Compreensão de que a comunicação em redes ocorre, em geral, por meio da **divisão das informações em pacotes de dados**.
+- Criação e simulação de **topologias de rede** utilizando o **Cisco Packet Tracer**.
+- Implementação de uma rede simples utilizando um **Hub** como dispositivo de interconexão.
+- Compreensão do papel do **Hub** na comunicação entre dispositivos dentro de uma rede.
+- Utilização do comando **nslookup** para realizar consultas e obter informações relacionadas à resolução de nomes por meio do **DNS**.
+- Compreensão da necessidade de **endereçamento e conexão adequada dos dispositivos** para estabelecer a comunicação em uma rede.
+- Identificação dos diferentes **meios físicos de conexão**, incluindo a utilização de cabos para interligar dispositivos de rede e computadores.
+- Desenvolvimento da capacidade de **simular, testar e analisar o comportamento de uma rede** em um ambiente virtual antes de sua implementação prática.
 ---
 
 ## Próximos Passos
